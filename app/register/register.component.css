@@ -1,0 +1,16 @@
+.btn {
+	margin: 0px 10px 10px 10px; 
+}
+
+.container-reg {
+	height: 100%;
+    width: 100%;
+	background-color: #eee;
+	position: absolute;
+}
+
+@media screen and (max-width: 991px) {
+    .container-reg {
+        position: unset;
+    }
+}
